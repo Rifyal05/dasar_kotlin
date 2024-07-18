@@ -1,8 +1,8 @@
 // Nomor 2. Mencari nilai rata-rata
 fun main() {
-    var nilaiMatdis = 90.0
-    var nilaiAljabar = 90.0
-    var nilaiIMK = 100.0
+    var nilaiMatdis = 50.0
+    var nilaiAljabar = 40.0
+    var nilaiIMK = 30.0
     var nilaiRataRata = (nilaiMatdis + nilaiAljabar + nilaiIMK) / 3
 
     if (nilaiRataRata > 75.0) {

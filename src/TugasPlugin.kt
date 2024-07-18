@@ -1,12 +1,13 @@
-import java.time.LocalDate
-import java.time.format.DateTimeFormatter
+//import java.time.LocalDate
+//import java.time.format.DateTimeFormatter
 
 //Nomor 1. Biodata
 fun main() {
     var nama: String = "Rifyal Aidil Dziaul Haq"
     var umur: Int = 18
-    var tanggallahir = LocalDate.parse("2005-08-08")
-    var format = tanggallahir.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"))
+    var tanggallahir : String= "08-08-2005"
+//    var tanggallahir = LocalDate.parse("2005-08-08")
+//    var format = tanggallahir.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"))
     var hobi: String = "Main Game"
     var makanan: String = "Nasi"
     var minuman: String = "Air Putih"
@@ -14,7 +15,7 @@ fun main() {
 
     println("Biodata Saya")
     println("Nama            : $nama")
-    println("TanggalLahir    : $format")
+    println("TanggalLahir    : $tanggallahir")
     println("Umur            : $umur")
     println("Hobi            : $hobi")
     println("Makanan Favorit : $makanan")
